@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PalindromeNumber", "Palindr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RomanToInteger", "RomanToInteger\RomanToInteger.csproj", "{FF85F54C-1297-4C4A-9991-74B3E6FB96B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidParentheses", "ValidParentheses\ValidParentheses.csproj", "{B1B95D56-5DDC-4677-85D3-DB6D43A2ECFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidParentheses", "ValidParentheses\ValidParentheses.csproj", "{B1B95D56-5DDC-4677-85D3-DB6D43A2ECFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddTwoSum", "AddTwoSum\AddTwoSum.csproj", "{D4C53156-916B-40D8-B0C9-F2F54DA09220}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{B1B95D56-5DDC-4677-85D3-DB6D43A2ECFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1B95D56-5DDC-4677-85D3-DB6D43A2ECFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1B95D56-5DDC-4677-85D3-DB6D43A2ECFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4C53156-916B-40D8-B0C9-F2F54DA09220}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4C53156-916B-40D8-B0C9-F2F54DA09220}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4C53156-916B-40D8-B0C9-F2F54DA09220}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4C53156-916B-40D8-B0C9-F2F54DA09220}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
