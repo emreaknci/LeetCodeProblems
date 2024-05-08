@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSum", "TwoSum\TwoSum.csproj", "{D56E90F2-E7B8-4E11-BCD5-380B6F280FF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoSum", "TwoSum\TwoSum.csproj", "{D56E90F2-E7B8-4E11-BCD5-380B6F280FF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeNumber", "PalindromeNumber\PalindromeNumber.csproj", "{5014A632-9E0D-4F79-8164-462AEC3B7701}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PalindromeNumber", "PalindromeNumber\PalindromeNumber.csproj", "{5014A632-9E0D-4F79-8164-462AEC3B7701}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanToInteger", "RomanToInteger\RomanToInteger.csproj", "{FF85F54C-1297-4C4A-9991-74B3E6FB96B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RomanToInteger", "RomanToInteger\RomanToInteger.csproj", "{FF85F54C-1297-4C4A-9991-74B3E6FB96B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidParentheses", "ValidParentheses\ValidParentheses.csproj", "{B1B95D56-5DDC-4677-85D3-DB6D43A2ECFC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{FF85F54C-1297-4C4A-9991-74B3E6FB96B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF85F54C-1297-4C4A-9991-74B3E6FB96B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF85F54C-1297-4C4A-9991-74B3E6FB96B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1B95D56-5DDC-4677-85D3-DB6D43A2ECFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1B95D56-5DDC-4677-85D3-DB6D43A2ECFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1B95D56-5DDC-4677-85D3-DB6D43A2ECFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1B95D56-5DDC-4677-85D3-DB6D43A2ECFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
