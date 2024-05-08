@@ -2,36 +2,31 @@
 
 ListNode AddTwoNumbers(ListNode l1, ListNode l2)
 {
-    BigInteger totalValue = GetListNodeValue(l1) + GetListNodeValue(l2);
-    string total_string = totalValue.ToString();
+    ListNode resultNode = new ListNode();
+    ListNode l1_copy = l1;
+    ListNode l2_copy = l2;
+    ListNode currentNode = resultNode;
+    int carry = 0;
 
-    ListNode newNode = new (0);
-    ListNode currNode = newNode;
-
-    for (int i = total_string.Length - 1; i >= 0; i--)
+    while (l1_copy != null || l2_copy != null)
     {
-        int digit = int.Parse(total_string[i].ToString());
-        currNode.next = new ListNode(digit);
-        currNode = currNode.next;
+        int x = (l1_copy != null) ? l1_copy.val : 0;
+        int y = (l2_copy != null) ? l2_copy.val : 0;
+        int sum = carry + x + y;
+        carry = sum / 10;
+        currentNode.next = new ListNode(sum % 10);
+        currentNode = currentNode.next;
+        if (l1_copy != null) l1_copy = l1_copy.next;
+        if (l2_copy != null) l2_copy = l2_copy.next;
     }
 
-    return newNode.next;
-}
-
-BigInteger GetListNodeValue(ListNode listNode)
-{
-    ListNode node = listNode;
-    string str_node = "";
-
-    while (node != null)
+    if (carry > 0)
     {
-        str_node = node.val.ToString() + str_node;
-        node = node.next;
+        currentNode.next = new ListNode(carry);
     }
 
-    return BigInteger.Parse(str_node);
+    return resultNode.next;
 }
-
 
 
 ListNode l1 = new(9);
