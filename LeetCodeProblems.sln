@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RomanToInteger", "RomanToIn
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidParentheses", "ValidParentheses\ValidParentheses.csproj", "{B1B95D56-5DDC-4677-85D3-DB6D43A2ECFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddTwoSum", "AddTwoSum\AddTwoSum.csproj", "{D4C53156-916B-40D8-B0C9-F2F54DA09220}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddTwoSum", "AddTwoSum\AddTwoSum.csproj", "{D4C53156-916B-40D8-B0C9-F2F54DA09220}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeTwoSortedLists", "MergeTwoSortedLists\MergeTwoSortedLists.csproj", "{2627320E-D875-4526-B0D6-1165753030F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{D4C53156-916B-40D8-B0C9-F2F54DA09220}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4C53156-916B-40D8-B0C9-F2F54DA09220}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4C53156-916B-40D8-B0C9-F2F54DA09220}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2627320E-D875-4526-B0D6-1165753030F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2627320E-D875-4526-B0D6-1165753030F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2627320E-D875-4526-B0D6-1165753030F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2627320E-D875-4526-B0D6-1165753030F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
