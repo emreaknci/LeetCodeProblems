@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PascalsTriangle", "PascalsT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sqrt", "Sqrt\Sqrt.csproj", "{C1259AAD-3E14-4D7B-8607-ACD91A635DE2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelSheetColumnTitle", "ExcelSheetColumnTitle\ExcelSheetColumnTitle.csproj", "{ED5F4DE5-5B1E-4F70-A11E-088A833F6067}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{C1259AAD-3E14-4D7B-8607-ACD91A635DE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1259AAD-3E14-4D7B-8607-ACD91A635DE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1259AAD-3E14-4D7B-8607-ACD91A635DE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED5F4DE5-5B1E-4F70-A11E-088A833F6067}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED5F4DE5-5B1E-4F70-A11E-088A833F6067}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED5F4DE5-5B1E-4F70-A11E-088A833F6067}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED5F4DE5-5B1E-4F70-A11E-088A833F6067}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
