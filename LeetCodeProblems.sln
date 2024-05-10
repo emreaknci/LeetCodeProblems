@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidParentheses", "ValidPa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddTwoSum", "AddTwoSum\AddTwoSum.csproj", "{D4C53156-916B-40D8-B0C9-F2F54DA09220}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeTwoSortedLists", "MergeTwoSortedLists\MergeTwoSortedLists.csproj", "{2627320E-D875-4526-B0D6-1165753030F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MergeTwoSortedLists", "MergeTwoSortedLists\MergeTwoSortedLists.csproj", "{2627320E-D875-4526-B0D6-1165753030F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LengthOfLastWord", "LengthOfLastWord\LengthOfLastWord.csproj", "{76767C12-95CF-4178-8B86-70271E75C8E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LengthOfLastWord", "LengthOfLastWord\LengthOfLastWord.csproj", "{76767C12-95CF-4178-8B86-70271E75C8E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestCommonPrefix", "LongestCommonPrefix\LongestCommonPrefix.csproj", "{5111BBFA-33A3-4C4A-AF10-95A716DEB500}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{76767C12-95CF-4178-8B86-70271E75C8E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76767C12-95CF-4178-8B86-70271E75C8E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76767C12-95CF-4178-8B86-70271E75C8E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5111BBFA-33A3-4C4A-AF10-95A716DEB500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5111BBFA-33A3-4C4A-AF10-95A716DEB500}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5111BBFA-33A3-4C4A-AF10-95A716DEB500}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5111BBFA-33A3-4C4A-AF10-95A716DEB500}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
