@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelSheetColumnTitle", "Ex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelSheetColumnNumber", "ExcelSheetColumnNumber\ExcelSheetColumnNumber.csproj", "{B312590E-E775-4DCB-ACF7-D89228273294}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveDuplicatesFromSortedArray", "RemoveDuplicatesFromSortedArray\RemoveDuplicatesFromSortedArray.csproj", "{9803DE49-2847-4050-B3FA-ABEA237CA505}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{B312590E-E775-4DCB-ACF7-D89228273294}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B312590E-E775-4DCB-ACF7-D89228273294}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B312590E-E775-4DCB-ACF7-D89228273294}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9803DE49-2847-4050-B3FA-ABEA237CA505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9803DE49-2847-4050-B3FA-ABEA237CA505}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9803DE49-2847-4050-B3FA-ABEA237CA505}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9803DE49-2847-4050-B3FA-ABEA237CA505}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
