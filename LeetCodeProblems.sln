@@ -19,15 +19,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LengthOfLastWord", "LengthO
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestCommonPrefix", "LongestCommonPrefix\LongestCommonPrefix.csproj", "{5111BBFA-33A3-4C4A-AF10-95A716DEB500}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PascalsTriangle", "PascalsTriangle\PascalsTriangle.csproj", "{1060179D-6A53-41BD-AA79-A31AA910CBDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PascalsTriangle", "PascalsTriangle\PascalsTriangle.csproj", "{1060179D-6A53-41BD-AA79-A31AA910CBDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sqrt", "Sqrt\Sqrt.csproj", "{C1259AAD-3E14-4D7B-8607-ACD91A635DE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sqrt", "Sqrt\Sqrt.csproj", "{C1259AAD-3E14-4D7B-8607-ACD91A635DE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelSheetColumnTitle", "ExcelSheetColumnTitle\ExcelSheetColumnTitle.csproj", "{ED5F4DE5-5B1E-4F70-A11E-088A833F6067}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExcelSheetColumnTitle", "ExcelSheetColumnTitle\ExcelSheetColumnTitle.csproj", "{ED5F4DE5-5B1E-4F70-A11E-088A833F6067}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelSheetColumnNumber", "ExcelSheetColumnNumber\ExcelSheetColumnNumber.csproj", "{B312590E-E775-4DCB-ACF7-D89228273294}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExcelSheetColumnNumber", "ExcelSheetColumnNumber\ExcelSheetColumnNumber.csproj", "{B312590E-E775-4DCB-ACF7-D89228273294}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveDuplicatesFromSortedArray", "RemoveDuplicatesFromSortedArray\RemoveDuplicatesFromSortedArray.csproj", "{9803DE49-2847-4050-B3FA-ABEA237CA505}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoveDuplicatesFromSortedArray", "RemoveDuplicatesFromSortedArray\RemoveDuplicatesFromSortedArray.csproj", "{9803DE49-2847-4050-B3FA-ABEA237CA505}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestTimeToBuyAndSellStock", "BestTimeToBuyAndSellStock\BestTimeToBuyAndSellStock.csproj", "{6BA533F9-48A1-4E0E-9130-844C4F48C6F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{9803DE49-2847-4050-B3FA-ABEA237CA505}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9803DE49-2847-4050-B3FA-ABEA237CA505}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9803DE49-2847-4050-B3FA-ABEA237CA505}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BA533F9-48A1-4E0E-9130-844C4F48C6F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BA533F9-48A1-4E0E-9130-844C4F48C6F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BA533F9-48A1-4E0E-9130-844C4F48C6F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BA533F9-48A1-4E0E-9130-844C4F48C6F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
